@@ -5,11 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export":"next build && next export",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next export",
-    "deploy": "npm run export && gh-pages -d out",
-    "predeploy": "npm run build"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.1.3",
